@@ -4,11 +4,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Light mode - Redesigned (Pure White) */
+/* Light mode - Redesigned (Off-White) */
 :root {
-  --background: oklch(0.99 0 0); /* Pure white background */
+  --background: oklch(0.97 0.005 240); /* Soft off-white background */
   --foreground: oklch(0.20 0.04 240); /* Dark slate gray text for readability */
-  --card: oklch(0.97 0.01 240); /* Very slightly off-white for cards to differentiate slightly */
+  --card: oklch(0.99 0 0); /* Pure white cards to pop slightly off background */
   --card-foreground: oklch(0.20 0.04 240);
   --popover: oklch(0.99 0 0);
   --popover-foreground: oklch(0.20 0.04 240);
@@ -17,9 +17,9 @@
   --primary: oklch(0.55 0.14 200); 
   --primary-foreground: oklch(0.99 0 0);
   
-  --secondary: oklch(0.95 0.02 240);
+  --secondary: oklch(0.94 0.01 240);
   --secondary-foreground: oklch(0.20 0.04 240);
-  --muted: oklch(0.96 0.01 240);
+  --muted: oklch(0.94 0.01 240);
   --muted-foreground: oklch(0.55 0.04 240);
   
   --accent: oklch(0.55 0.14 200);
@@ -38,13 +38,13 @@
   --chart-5: oklch(0.65 0.19 70.08);
   --radius: 0.5rem;
   
-  --sidebar: oklch(0.99 0 0);
+  --sidebar: oklch(0.97 0.005 240);
   --sidebar-foreground: oklch(0.20 0.04 240);
   --sidebar-primary: oklch(0.55 0.14 200);
   --sidebar-primary-foreground: oklch(0.99 0 0);
-  --sidebar-accent: oklch(0.95 0.02 240);
+  --sidebar-accent: oklch(0.94 0.01 240);
   --sidebar-accent-foreground: oklch(0.20 0.04 240);
-  --sidebar-border: oklch(0.90 0.02 240);
+  --sidebar-border: oklch(0.90 0.01 240);
   --sidebar-ring: oklch(0.55 0.14 200);
 
   /* Gradient Opacities (Greatly reduced for light mode to prevent flashiness) */
