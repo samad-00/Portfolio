@@ -6,23 +6,23 @@
 
 /* Light mode - Redesigned (Beige) */
 :root {
-  --background: oklch(0.92 0.025 85); /* Slightly darker beige background */
-  --foreground: oklch(0.20 0.03 85); /* Slightly darker brown/gray text for readability */
-  --card: oklch(0.94 0.02 85); /* Slightly lighter than bg for cards */
-  --card-foreground: oklch(0.20 0.03 85);
-  --popover: oklch(0.94 0.02 85);
-  --popover-foreground: oklch(0.20 0.03 85);
+  --background: oklch(0.88 0.035 85); /* Darker, richer beige/sand background */
+  --foreground: oklch(0.15 0.04 85); /* Darker brown text for readability */
+  --card: oklch(0.91 0.03 85); /* Lighter than bg for cards */
+  --card-foreground: oklch(0.15 0.04 85);
+  --popover: oklch(0.91 0.03 85);
+  --popover-foreground: oklch(0.15 0.04 85);
   
-  /* Primary Accent for Light Mode - Deep Teal for contrast against beige */
-  --primary: oklch(0.40 0.12 200); 
+  /* Primary Accent for Light Mode - Deep Teal for contrast */
+  --primary: oklch(0.35 0.12 200); 
   --primary-foreground: oklch(0.99 0 0);
   
-  --secondary: oklch(0.88 0.03 85);
-  --secondary-foreground: oklch(0.20 0.03 85);
-  --muted: oklch(0.88 0.03 85);
-  --muted-foreground: oklch(0.40 0.03 85);
+  --secondary: oklch(0.85 0.04 85);
+  --secondary-foreground: oklch(0.15 0.04 85);
+  --muted: oklch(0.85 0.04 85);
+  --muted-foreground: oklch(0.35 0.04 85);
   
-  --accent: oklch(0.40 0.12 200);
+  --accent: oklch(0.35 0.12 200);
   --accent-foreground: oklch(0.99 0 0);
   
   --destructive: oklch(0.577 0.245 27.325);
@@ -38,14 +38,14 @@
   --chart-5: oklch(0.65 0.19 70.08);
   --radius: 0.5rem;
   
-  --sidebar: oklch(0.92 0.025 85);
-  --sidebar-foreground: oklch(0.20 0.03 85);
-  --sidebar-primary: oklch(0.40 0.12 200);
+  --sidebar: oklch(0.88 0.035 85);
+  --sidebar-foreground: oklch(0.15 0.04 85);
+  --sidebar-primary: oklch(0.35 0.12 200);
   --sidebar-primary-foreground: oklch(0.99 0 0);
-  --sidebar-accent: oklch(0.88 0.03 85);
-  --sidebar-accent-foreground: oklch(0.20 0.03 85);
-  --sidebar-border: oklch(0.84 0.03 85);
-  --sidebar-ring: oklch(0.40 0.12 200);
+  --sidebar-accent: oklch(0.85 0.04 85);
+  --sidebar-accent-foreground: oklch(0.15 0.04 85);
+  --sidebar-border: oklch(0.80 0.04 85);
+  --sidebar-ring: oklch(0.35 0.12 200);
 
   /* Gradient Opacities (Greatly reduced for light mode to prevent flashiness) */
   --bg-gradient-opacity: 0.03;
