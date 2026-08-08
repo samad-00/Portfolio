@@ -108,7 +108,7 @@ export function Navigation() {
           style={{ width: progressWidth }}
         />
         
-        <nav className="max-w-6xl mx-auto px-6 md:px-12 py-4 flex items-center justify-between">
+        <nav className="w-full max-w-[1600px] mx-auto px-6 md:px-12 py-4 flex items-center justify-between">
           {/* Logo */}
           <MagneticLink href="#" className="relative group">
             <motion.div
@@ -144,8 +144,8 @@ export function Navigation() {
             </motion.div>
           </MagneticLink>
 
-          {/* Desktop Navigation */}
-          <ul className="hidden md:flex items-center gap-1">
+          {/* Desktop Navigation Links (Center) */}
+          <ul className="hidden md:flex items-center justify-center gap-1 absolute left-1/2 -translate-x-1/2">
             {navLinks.map((link, index) => (
               <motion.li
                 key={link.name}
@@ -182,12 +182,14 @@ export function Navigation() {
                 </MagneticLink>
               </motion.li>
             ))}
-            
-            <motion.li
+          </ul>
+
+          {/* Actions (Right) */}
+          <div className="hidden md:flex items-center gap-4">
+            <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.6, ease: [0.215, 0.61, 0.355, 1] }}
-              className="ml-4"
             >
               <motion.a
                 href="/cv%20mine.pdf"
@@ -206,17 +208,16 @@ export function Navigation() {
                 <FileText className="w-4 h-4 relative z-10 text-primary group-hover:text-primary-foreground transition-colors" />
                 <span className="relative z-10 text-primary group-hover:text-primary-foreground transition-colors">CV</span>
               </motion.a>
-            </motion.li>
+            </motion.div>
             
-            <motion.li
+            <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.7, ease: [0.215, 0.61, 0.355, 1] }}
-              className="ml-2"
             >
               <ThemeToggle />
-            </motion.li>
-          </ul>
+            </motion.div>
+          </div>
 
           {/* Mobile Menu Button */}
           <motion.button
