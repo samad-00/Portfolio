@@ -4,6 +4,7 @@ import { About } from "@/components/about"
 import { Skills } from "@/components/skills"
 import { Projects } from "@/components/projects"
 import { Certificates } from "@/components/certificates"
+import { Education } from "@/components/education"
 import { Contact } from "@/components/contact"
 import { Footer } from "@/components/footer"
 import { DataScienceDoodles } from "@/components/data-science-doodles"
@@ -19,9 +20,11 @@ export default function Home() {
         <Skills />
         <Projects />
         <Certificates />
+        <Education />
         <Contact />
       </div>
       <Footer />
     </main>
   )
 }
+
