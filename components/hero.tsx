@@ -296,7 +296,6 @@ export function Hero() {
               className="object-cover object-top"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent" />
           </div>
           
           {/* Status badge */}
